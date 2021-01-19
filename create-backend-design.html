@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <title>Backend Design</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="alignleft"><a class="btn_white" href="#">Edit Design</a></div>
+                <div class="aligncenter"><img src="img/logo.png" /></div>
+                <div class="alignright"><a class="btn_white">Logout</a></div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </header>
+
+    <main class="container ">
+        <section class="backend_design">
+
+            <div>
+                <button class="btn btn_green"> New design</button>
+            </div>
+
+            <div class="design_rows">
+
+                <!--Design start-->
+                <div class="row">
+                    <div class="col-md-4 p0 b1">
+                        <img src="img/design1.PNG" width="100%" />
+                    </div>
+                    <div class="col-md-8 drd2">
+                        <div class="editor_color_d">
+                            <div class="editor_d">
+                                <img src="img/editor.png" style="width: 100%;" />
+                            </div>
+                            <div class="colors_d">
+                                <span class="cg b1"></span>
+                                <span class="cp b1"></span>
+                                <span class="cb b1"></span>
+                                <span class="cw b1"></span>
+                                <span class="cgr b1"></span>
+                            </div>
+                        </div>
+
+                        <div class="addline">
+                            <p>+ Add line</p>
+                        </div>
+
+                        <div class="drdfooter">
+
+                            <form>
+
+                                <div class="form-check">
+                                    <span class="">Publish design</span>
+                                    <input type="checkbox" name="cb" id="cb1" required><label for="cb1"></label>
+                                </div>
+
+
+
+                                <button type="submit" class="btn btn_green">Save design</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Design End-->
+
+            </div>
+
+
+
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -287,7 +287,15 @@
         }
         
         .design_rows {
-            margin-top: 30px;
+            margin-top: 20px;
+        }
+        
+        .design_rows h2 {
+            margin-top: 60px;
+            color: #000;
+            font-family: "Helvetica Neue", sans-serif !important;
+            font-weight: bold;
+            font-size: 24px;
         }
         
         .design_rows .row {
@@ -305,6 +313,7 @@
         .drd2 {
             padding: 0px 20px 0px 10px;
             position: relative;
+            width: 40%;
         }
         
         .editor_color_d {
@@ -378,6 +387,13 @@
             padding: 0px 0px 0px 20px;
             position: absolute;
             bottom: 0px;
+            right: 0px;
+        }
+        
+        .sd_footer {
+            padding: 0px 0px 0px 20px;
+            position: absolute;
+            bottom: 0px;
         }
         
         .customer_design {
@@ -385,7 +401,15 @@
         }
         
         .customer_rows {
-            margin-top: 30px;
+            margin-top: 20px;
+        }
+        
+        .customer_rows h2 {
+            margin-bottom: 30px;
+            color: #000;
+            font-family: "Helvetica Neue", sans-serif !important;
+            font-weight: bold;
+            font-size: 24px;
         }
         
         .customer_rows .row {
@@ -411,7 +435,43 @@
             float: right;
         }
         
+        .all_dd2s {
+            margin: 10px 0px;
+        }
+        
+        .all_dd2s a {
+            margin: auto;
+            display: table;
+            width: 50%;
+            padding: 12px 40px;
+        }
+        
+        .all_dd {
+            margin: 10px 0px;
+        }
+        
+        .all_dd button {
+            margin: auto;
+            display: table;
+            padding: 12px 40px;
+        }
+        
+        @media(max-width:950px) {
+            .drd2 {
+                width: 58%;
+            }
+        }
+        
         @media(max-width:768px) {
+            .all_dd2s a {
+                font-size: 18px !important;
+                padding: 10px 28px !important;
+            }
+            .all_dd button {
+                font-size: 18px !important;
+                padding: 10px 28px !important;
+                width: 100%;
+            }
             .dd2 {
                 padding: 20px 0px;
             }
@@ -420,14 +480,22 @@
             }
             .drd2 {
                 padding: 15px 0px 90px 0px;
+                width: 100%;
+            }
+            .form-check {
+                width: 200px;
             }
             .btn_red2 {
-                font-size: 14px;
-                padding: 6px 28px;
+                font-size: 18px;
+                padding: 10px 36px;
             }
             .drdfooter {
                 bottom: 20px;
                 right: 0;
+            }
+            .sd_footer {
+                top: 20px;
+                padding: 0px 0px 0px 0px;
             }
             .editor_d {
                 padding-left: 0px;
@@ -448,10 +516,23 @@
             }
         }
         
-        @media(max-width: 600px) {
+        @media(max-width:600px) {
+            .all_dd2s a {
+                width: 100%;
+            }
+            .all_dd button {
+                width: 100%;
+            }
+        }
+        
+        @media(max-width: 400px) {
             .addline {
                 padding: 40px 0px 30px 0px;
             }
+        }
+        
+        .mb20 {
+            margin-bottom: 20px;
         }
         
         input[type="checkbox"],
